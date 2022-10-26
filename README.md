@@ -1,6 +1,5 @@
 
 # Simple C# Task manager
-   *Without incorrect input values protection!* 
 
 ### Introduction:
    This is a small program wrote in C#. Contain simple index system.
@@ -13,7 +12,7 @@
   3. Deleting specific tasks by their indexes.
 
 ### Ideas for future:
-  1. Adding incorrect values protection in action-menu.
+  ~~1. Adding incorrect values protection in action-menu.~~ Already realized.
   
 ### Example screenshot:
 
