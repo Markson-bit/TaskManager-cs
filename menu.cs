@@ -8,7 +8,7 @@ namespace TSKmgPROP
 {
     class menu
     {
-        string filePath = @"YOUR'S FILE DIRECTIORY!";
+        string filePath = @"YOUR'S PATH HERE!";
         int indexToDelete;
 
         public void drawMenu()
@@ -43,8 +43,18 @@ namespace TSKmgPROP
         public void delTask()
         {
             var lineToDelete = new List<string>(File.ReadAllLines(filePath));
-            lineToDelete.RemoveAt(indexToDelete);
-            File.WriteAllLines(filePath, lineToDelete.ToArray());
+            try
+            {
+                lineToDelete.RemoveAt(indexToDelete);
+            }
+            catch
+            {
+                Console.Clear();
+            }
+            finally
+            {
+                File.WriteAllLines(filePath, lineToDelete.ToArray());
+            }
         }
 
     }
