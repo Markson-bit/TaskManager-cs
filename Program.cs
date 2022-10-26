@@ -50,9 +50,6 @@ namespace TSKmgPROP
                 if (action != 1 && action != 2 && action != 3 && action != 4)
                 {
                     Console.Clear();
-
-
-
                 }
             }
         }
