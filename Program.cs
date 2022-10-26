@@ -51,6 +51,8 @@ namespace TSKmgPROP
                 {
                     Console.Clear();
 
+
+
                 }
             }
         }
