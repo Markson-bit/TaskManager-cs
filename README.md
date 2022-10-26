@@ -12,7 +12,7 @@
   3. Deleting specific tasks by their indexes.
 
 ### Ideas for future:
-  ~~1. Adding incorrect values protection in action-menu.~~ Already realized.
+  ~~1. Adding incorrect values protection in action-menu.~~ Already implemented.
   
 ### Example screenshot:
 
