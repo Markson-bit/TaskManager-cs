@@ -8,7 +8,7 @@ namespace TSKmgPROP
 {
     class menu
     {
-        string filePath = @"YOUR'S PATH HERE!";
+        string filePath = @"YOUR'S PATH HERE!!!";
         int indexToDelete;
 
         public void drawMenu()
