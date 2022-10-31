@@ -8,7 +8,7 @@ namespace TSKmgPROP
 {
     class menu
     {
-        string filePath = @"C:\Users\jamal\Desktop\code\tasks.txt";
+        string filePath = @"YOUR'S PATH there";
         int indexToDelete;
 
         public void drawMenu()
